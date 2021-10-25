@@ -19,6 +19,7 @@ def list_uniqueness(the_list):
     dictionary = {}
     dictionary["list_length"] = len(the_list)
     dictionary['unique_items'] = len(set(the_list))
+    
     # ====================================
     # Do not change the code after this
     
